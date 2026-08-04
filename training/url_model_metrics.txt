@@ -1,0 +1,23 @@
+URL PHISHING MODEL — EVALUATION METRICS
+Dataset: datasets/urls.csv (636088 rows after cleaning)
+Model: TF-IDF (char 3-5 gram, 30k features) + Logistic Regression
+
+Accuracy : 0.9188
+Precision: 0.8415
+Recall   : 0.9319
+F1 Score : 0.8844
+
+Confusion Matrix:
+[[77377  7443]
+ [ 2887 39511]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.91      0.94     84820
+           1       0.84      0.93      0.88     42398
+
+    accuracy                           0.92    127218
+   macro avg       0.90      0.92      0.91    127218
+weighted avg       0.92      0.92      0.92    127218
+

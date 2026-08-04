@@ -1,0 +1,19 @@
+SMS / MESSAGE SPAM-PHISHING MODEL — EVALUATION METRICS
+Dataset: datasets/spam.csv (5202 rows, incl. 18 augmented phishing-style examples)
+Model: TF-IDF (word 1-2 gram) + Logistic Regression (class_weight=balanced)
+
+Accuracy : 0.9731
+Precision: 0.9417
+Recall   : 0.8433
+F1 Score : 0.8898
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.98       907
+           1       0.94      0.84      0.89       134
+
+    accuracy                           0.97      1041
+   macro avg       0.96      0.92      0.94      1041
+weighted avg       0.97      0.97      0.97      1041
+

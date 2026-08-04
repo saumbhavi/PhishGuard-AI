@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large datasets (download separately, see README)
+datasets/*.csv
+
+# Logs (generated at runtime)
+logs/*.csv
+
+# OS
+.DS_Store
