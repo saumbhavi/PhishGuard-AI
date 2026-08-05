@@ -6,6 +6,8 @@ engine, and live threat intelligence (VirusTotal + IP geolocation).
 
 🔗 **Live demo:** https://phishguard-ai-cijlfrkpgrfqfefx5qjasr.streamlit.app/
 
+![PhishGuard AI Demo](docs/demo-scan.png)
+
 ## What it does
 
 - **URL Threat Scanner** — paste a URL, get an ML-based verdict, a rule-based
