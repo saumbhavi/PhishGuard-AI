@@ -4,6 +4,8 @@ A Streamlit-based security tool that scans URLs and messages for phishing
 indicators, combining a trained ML model, a rule-based threat-scoring
 engine, and live threat intelligence (VirusTotal + IP geolocation).
 
+🔗 **Live demo:** https://phishguard-ai-cijlfrkpgrfqfefx5qjasr.streamlit.app/
+
 ## What it does
 
 - **URL Threat Scanner** — paste a URL, get an ML-based verdict, a rule-based
