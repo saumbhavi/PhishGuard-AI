@@ -7,11 +7,13 @@ __pycache__/
 .venv/
 venv/
 
-# Large datasets (download separately, see README)
+# Datasets
 datasets/*.csv
 
-# Logs (generated at runtime)
+# Runtime logs
 logs/*.csv
+*.log
 
 # OS
 .DS_Store
+Thumbs.db
